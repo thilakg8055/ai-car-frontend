@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     // axios.get("http://localhost:5001")
-    axios.get(`${API_URL}/api/diagnose`)
+    axios.get(`${API_URL}/api/diagnose`, diagnoseRoute)
       .then(res => console.log(res.data))
       .catch(err => console.log(err));
   }, []);
