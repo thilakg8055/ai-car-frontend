@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import axios from "axios";
+//import { useEffect } from "react";
+//import axios from "axios";
 import Home from "./pages/Home";
 // const API_URL = process.env.REACT_APP_API_URL;
 function App() {
