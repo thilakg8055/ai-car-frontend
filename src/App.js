@@ -10,8 +10,10 @@ function App() {
   //     .then(res => console.log(res.data))
   //     .catch(err => console.log(err));
   // }, []);
-  axios.post(`${API_URL}/api/diagnose`, data);
-
+  // axios.post(`${API_URL}/api/diagnose`, data);
+  axios.post(`${API_URL}/api/diagnose`, data)
+    .then(res => console.log(res.data))
+    .catch(err => console.log(err));
   return (
     <Home />
   );
